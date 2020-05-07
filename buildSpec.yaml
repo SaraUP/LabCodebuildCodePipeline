@@ -9,13 +9,13 @@ phases:
       - ./deploy.sh -i
   pre_build:
     commands:
-      - echo pre-build2
+      - echo pre-build
   build:
     commands:
       - ./deploy.sh -b
   post_build:
     commands:
-      - echo post-build2
+      - echo post-build
       
 artifacts:
   files:
